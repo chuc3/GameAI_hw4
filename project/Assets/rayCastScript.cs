@@ -12,12 +12,12 @@ public class rayCastScript : MonoBehaviour {
 	void Update () {
 		//RaycastHit hit;
 		//if (Physics.Raycast (transform.position, transform.up.normalized, out hit))
-		RaycastHit2D hit = Physics2D.Raycast(transform.position,transform.up);
+		RaycastHit2D hit = Physics2D.Raycast(transform.localPosition,transform.up);
 			print (hit.distance);
 
 		//Debug.DrawRay(transform.localPosition, transform.forward.normalized * 10f, Color.cyan);
 	}
 	void FixedUpdate(){
-		Debug.DrawRay(transform.position, transform.up.normalized, Color.red);
+		Debug.DrawRay(transform.localPosition, transform.up.normalized, Color.red);
 	}
 }
