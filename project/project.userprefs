@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\movementScript.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\GameAI_hw3\Assets\Scripts\playerMovementScript.cs">
     <Files>
-      <File FileName="..\..\GameAI_hw3\Assets\Scripts\BoidController.cs" Line="1" Column="1" />
-      <File FileName="Assets\rayCastScript.cs" Line="25" Column="42" />
-      <File FileName="Assets\movementScript.cs" Line="46" Column="85" />
+      <File FileName="..\..\GameAI_hw3\Assets\pathFollow2.cs" Line="63" Column="14" />
+      <File FileName="..\..\GameAI_hw3\Assets\PathFollow.cs" Line="1" Column="1" />
+      <File FileName="..\..\GameAI_hw3\Assets\Scripts\playerMovementScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
